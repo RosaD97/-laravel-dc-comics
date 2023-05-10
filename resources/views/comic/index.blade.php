@@ -6,6 +6,9 @@
 
 
 @section('page.main')
+
+<a href="{{ route('comics.create')}}" class="btn btn-primary">Crea</a>
+
 <div class="container d-flex flex-wrap">
         @foreach ($comics as $comic)
             <div class="card" >

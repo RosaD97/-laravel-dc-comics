@@ -8,8 +8,8 @@
     </head>
     <body>
         <div class="container">
-            <h1>Template Classe 89</h1>
-            <img src="{{ Vite::asset('resources/img/pluto.webp') }}" alt="" srcset="">
+            <h1>Visualizza tutti i comics</h1>
+            <a href="{{ route('comics.index')}}" class="btn btn-primary">Vedi dettagli</a>
         </div>
 
     </body>
