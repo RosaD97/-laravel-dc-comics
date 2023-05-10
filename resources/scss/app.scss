@@ -1,3 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 
+.ms_thumb{
+    height: 350px;
+    object-fit: cover;
+}
 
+.ms_card{
+    width: calc(100% / 5);
+    box-shadow: 2px 0px 10px 0px #413b6b;
+}
+
+// Home
+body{
+    background-color: #1c0b2b;
+}
+
+// Hover
+.my_btn:hover{
+    box-shadow: 2px 0px 33px 0px #6f95ff;
+}
+
+// Create
+.ms_create{
+    color: #ffff;
+}

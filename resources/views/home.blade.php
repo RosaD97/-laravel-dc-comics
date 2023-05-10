@@ -7,9 +7,9 @@
          @vite('resources/js/app.js')
     </head>
     <body>
-        <div class="container">
-            <h1>Visualizza tutti i comics</h1>
-            <a href="{{ route('comics.index')}}" class="btn btn-primary">Vedi dettagli</a>
+        <div class="container text-center">
+            <h1 class="my-4 text-light">Visualizza tutti i comics</h1>
+            <a href="{{ route('comics.index')}}" class="my_btn btn btn-light mt-3">Vai ai comics</a>
         </div>
 
     </body>
