@@ -13,6 +13,9 @@
     <div class="mt-3">sale_date</div>
     <div>{{ $comics->sale_date }}</div>
 
+    <div>{!! $comics->artists !!}</div>
+
+
 
     <a href="{{ route('comics.index')}}" class="btn my_btn btn-light mt-3">Back</a>
 
