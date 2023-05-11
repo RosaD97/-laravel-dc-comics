@@ -21,7 +21,17 @@
                   <div>Series: {{ $comic->series }}</div>
 
                   {{-- Rotta per la views show --}}
-                  <a href="{{ route('comics.show', $comic->id )}}" class="btn my_btn btn btn-light mt-4 justify-content-center d-flex">Vedi dettagli</a>
+                  <a href="{{ route('comics.show', $comic->id )}}" class="btn my_btn btn-light mt-4 justify-content-center d-flex">Vedi dettagli</a>
+                  {{-- Rotta per la views edit --}}
+                  <a href="{{ route('comics.edit', $comic->id )}}" class="btn my_btn btn-light mt-4 justify-content-center d-flex">Modifica</a>
+
+                  <form class="text-center my-2" action="{{ route('comics.destroy', $comic->id )}}" method="POST">
+                    @csrf
+                      {{-- Metodo DELETE --}}
+                      @method('DELETE')
+                    <button type="submit" class="btn my_btn_delete btn-light">delete</button>
+                  </form>
+
                 </div>
               </div>
         @endforeach

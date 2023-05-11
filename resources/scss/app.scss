@@ -24,3 +24,10 @@ body{
 .ms_create{
     color: #ffff;
 }
+
+.my_btn_delete:hover{
+    box-shadow: 2px 0px 33px 0px #c01010;
+}
+.my_btn_delete{
+    border: 1px solid #c01010;
+}
