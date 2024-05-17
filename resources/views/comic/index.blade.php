@@ -31,7 +31,6 @@
                       @method('DELETE')
                     <button type="submit" class="btn my_btn_delete btn-light">delete</button>
                   </form>
-
                 </div>
               </div>
         @endforeach

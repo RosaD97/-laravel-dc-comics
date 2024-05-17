@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('home');
 });
 
+// Utilizziamo il metodo resource
 Route::resource('comics', ComicController::class);
